@@ -1,33 +1,59 @@
 const questions= [
     {
-        question:"kdbvjhxcvbxchjvbxcv",
+        question:"What is the exact speed of light ?",
         answers:[
-            {text:"adkbd", correct:false},
-            {text:"adfsvsbd", correct:false},
-            {text:"sfv", correct:true},
-            {text:"adk sfvbd", correct:false},
+            {text:"299720 km/s", correct:true},
+            {text:"299760 km/s", correct:false},
+            {text:"300000 m/s", correct:false},
+            {text:"186000 m/s", correct:false},
         ]
     },
     {
-        question:"kdbvjhxcvbxchjvbxcv",
+        question:"What the name of our galaxy?",
         answers:[
-            {text:"adkbd", correct:false},
-            {text:"adfsvsbd", correct:true},
-            {text:"sfv", correct:false},
-            {text:"adk sfvbd", correct:false},
+            {text:"Earthomeda galaxy", correct:false},
+            {text:"Milky way galaxy", correct:true},
+            {text:"Milkomeda galaxy", correct:false},
+            {text:"Scorpian galaxy", correct:false},
         ]
     },
     {
-        question:"kdbvjhxcvbxchjvbxcv",
+        question:"What is the rotation speed of earth around the Sun?",
         answers:[
-            {text:"adkbd", correct:false},
-            {text:"adfsvsbd", correct:false},
-            {text:"sfv", correct:true},
-            {text:"adk sfvbd", correct:false},
+            {text:"68000km/s", correct:false},
+            {text:"28000 km/s", correct:false},
+            {text:"66600 Miles/hour", correct:true},
+            {text:"87000 Km/hour ", correct:false},
+        ]
+    },
+    {
+        question:"What is the closest star to Earth?",
+        answers:[
+            {text:"Beteleugse", correct:false},
+            {text:"Ton-18", correct:false},
+            {text:"Alpho Cenatauri", correct:true},
+            {text:"Sirius ", correct:false},
+        ]
+    },
+    {
+        question:"What is the most common type of star in the Milky Way galaxy?",
+        answers:[
+            {text:"Red dwarfs", correct:false},
+            {text:"White dwarfs", correct:true},
+            {text:"Yellow dwarfs", correct:false},
+            {text:"Blue giants", correct:false},
+        ]
+    },
+    {
+        question:"Which planet is known as the “Evening Star”",
+        answers:[
+            {text:"Mars", correct:false},
+            {text:"Venus", correct:true},
+            {text:"Saturn", correct:false},
+            {text:"Jupiter", correct:false},
         ]
     },
 ];
-
 const  questionElement = document.getElementById("question");
 const  answerButtons = document.getElementById("ans-buttons");
 const  nextButtom = document.getElementById("next-btn");
